@@ -1,0 +1,30 @@
+{
+  "author": "Corno",
+  "bin": {},
+  "dependencies": {
+    "astn-parser-api": "^0.6.0",
+    "astn-parser-lib": "^0.5.0",
+    "astn-serializer-api": "^0.6.0",
+    "astn-typedtreehandler-api": "^0.7.0",
+    "pareto-runtime": "^0.22.0"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "keywords": [],
+  "main": "./dist/index.js",
+  "bugs": {
+    "url": "https://github.com/corno/astn/issues"
+  },
+  "description": "marshaller for ASTN",
+  "homepage": "https://github.com/corno/astn#readme",
+  "license": "ISC",
+  "name": "astn-marshall-lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/astn-marshall-lib.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.4.0"
+}
