@@ -1,7 +1,7 @@
 
 import * as pr from "pareto-runtime"
-import { IMarshallableDataset, IMarshallableValue } from "../interface"
-import { Datastore, Value } from "../interface/types/Datastore"
+import { IMarshallableDataset, IMarshallableValue } from "astn-marshall-api"
+import { Datastore, Value } from "astn-marshall-api"
 
 
 export function createMarshallInterface(

@@ -1,6 +1,6 @@
 import * as pr from "pareto-runtime"
 
-import * as api from "../interface"
+import * as api from "astn-marshall-api"
 
 import * as def from "astn-typedtreehandler-api"
 
@@ -14,9 +14,9 @@ import { IContentTokenConsumer } from "astn-tokenconsumer-api"
 import { TypeDefinition, ValueDefinition } from "astn-typedtreehandler-api"
 
 import { getElement } from "pareto-runtime"
-import { CreateAnnotater } from "../interface/interfaces/CreateAnnotater"
-import { CreateTreeParserAndHandleErrors } from "../interface/interfaces/CreateTreeParser"
-import { CreateASTNNormalizer } from "../interface/interfaces/CreateASTNNormalizer"
+import { CreateAnnotater } from "astn-marshall-api"
+import { CreateTreeParserAndHandleErrors } from "astn-marshall-api"
+import { CreateASTNNormalizer } from "astn-marshall-api"
 
 interface IOut<LeafEvent, BlockEvent> {
     sendEvent(event: LeafEvent): void

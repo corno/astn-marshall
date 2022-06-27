@@ -1,6 +1,6 @@
 
 import { ITypedTreeHandler, ITypedValueHandler } from "astn-typedtreehandler-api"
-import { Datastore, Dictionary, DSTaggedUnion, Group, Value } from "../interface/types/Datastore"
+import { Datastore, Dictionary, DSTaggedUnion, Group, Value } from "astn-marshall-api"
 
 export function createBuilder<EventAnnotation>(
     ds: Datastore,
