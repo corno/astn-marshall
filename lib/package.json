@@ -2,7 +2,7 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
-    "astn-marshall-api": "^0.6.0",
+    "astn-marshall-api": "^0.6.1",
     "astn-parser-api": "^0.6.1",
     "astn-parser-lib": "^0.5.1",
     "astn-serializer-api": "^0.6.1",
