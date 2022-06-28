@@ -3,9 +3,9 @@
   "bin": {},
   "dependencies": {
     "astn-marshall-api": "^0.6.1",
-    "astn-parser-api": "^0.6.1",
-    "astn-parser-lib": "^0.5.1",
-    "astn-serializer-api": "^0.6.1",
+    "astn-parser-api": "^0.6.2",
+    "astn-parser-lib": "^0.5.5",
+    "astn-serializer-api": "^0.6.3",
     "astn-typedtreehandler-api": "^0.7.1",
     "pareto-runtime": "^0.22.0"
   },
@@ -27,5 +27,6 @@
     "url": "git+https://github.com/corno/astn-marshall.git"
   },
   "types": "dist/index.d.ts",
-  "version": "0.7.1"
+  "version": "0.7.1",
+  "content-fingerprint": "c5073cf761f55dd241719f0748e0974c4159033a"
 }
