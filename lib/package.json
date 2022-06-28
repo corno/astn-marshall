@@ -2,7 +2,7 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
-    "astn-marshall-api": "^0.6.2",
+    "astn-marshall-api": "^0.6.3",
     "astn-parser-api": "^0.6.2",
     "astn-parser-lib": "^0.5.5",
     "astn-serializer-api": "^0.6.3",
@@ -28,5 +28,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.7.2",
-  "content-fingerprint": "c9bd9fbc68cdfe8fa428c4860433d832ee88cfac"
+  "content-fingerprint": "4df52e7e4fcdbb0a71ac3514790f961e36a22410"
 }
