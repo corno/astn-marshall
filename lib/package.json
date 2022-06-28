@@ -6,7 +6,7 @@
     "astn-parser-api": "^0.6.2",
     "astn-parser-lib": "^0.5.5",
     "astn-serializer-api": "^0.6.3",
-    "astn-typedtreehandler-api": "^0.7.1",
+    "astn-typedtreehandler-api": "^0.7.2",
     "pareto-runtime": "^0.22.0"
   },
   "files": [

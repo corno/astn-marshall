@@ -5,8 +5,7 @@
     "astn-handlers-api": "^0.5.1",
     "astn-parser-api": "^0.6.2",
     "astn-serializer-api": "^0.6.3",
-    "astn-tokenconsumer-api": "^0.3.2",
-    "pareto-runtime": "^0.22.0"
+    "astn-tokenconsumer-api": "^0.3.2"
   },
   "files": [
     "dist",
