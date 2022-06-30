@@ -27,6 +27,6 @@
     "url": "git+https://github.com/corno/astn-marshall.git"
   },
   "types": "dist/index.d.ts",
-  "version": "0.7.4",
-  "content-fingerprint": "158497726f4f7571539e55f954de04a5f32f90f4"
+  "version": "0.7.5",
+  "content-fingerprint": "cb01ed13182643092fbbd0969673033aaa60968f"
 }
