@@ -1,1 +1,3 @@
-console.log("Hello World!")
+import * as pl from "pareto-lang-lib"
+
+pl.logDebugMessage("Hello World!")

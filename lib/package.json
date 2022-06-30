@@ -3,11 +3,11 @@
   "bin": {},
   "dependencies": {
     "astn-marshall-api": "^0.6.3",
-    "astn-parser-api": "^0.6.2",
-    "astn-parser-lib": "^0.5.5",
-    "astn-serializer-api": "^0.6.3",
-    "astn-typedtreehandler-api": "^0.7.3",
-    "pareto-runtime": "^0.22.0"
+    "astn-parser-api": "^0.7.1",
+    "astn-parser-lib": "^0.8.3",
+    "astn-serializer-api": "^0.6.4",
+    "astn-typedtreehandler-api": "^0.7.4",
+    "pareto-runtime": "^0.23.0"
   },
   "files": [
     "dist",
@@ -28,5 +28,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.7.4",
-  "content-fingerprint": "ff802bcf662ca7d5060d5cfbd305e8d12606f841"
+  "content-fingerprint": "158497726f4f7571539e55f954de04a5f32f90f4"
 }

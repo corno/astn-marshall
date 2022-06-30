@@ -1,4 +1,4 @@
-import * as pr from "pareto-runtime"
+import * as pl from "pareto-lang-lib"
 
 import * as api from "astn-marshall-api"
 
@@ -120,7 +120,7 @@ function onValueIsNonDefault(
             break
         }
         default:
-            return pr.au(definition.type[0])
+            return pl.au(definition.type[0])
     }
 }
 
@@ -352,7 +352,7 @@ function marshallValue(
                             break
                         }
                         default:
-                            pr.au(style[0])
+                            pl.au(style[0])
                     }
                 }
 
@@ -360,7 +360,7 @@ function marshallValue(
             break
         }
         default:
-            pr.au(definition.type[0])
+            pl.au(definition.type[0])
     }
 }
 
@@ -440,7 +440,7 @@ export function marshall(
             break
         }
         default:
-            pr.au(internalSchemaSpecification[0])
+            pl.au(internalSchemaSpecification[0])
     }
 
     const bodyParser = createTreeParser({

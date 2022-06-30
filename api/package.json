@@ -2,10 +2,10 @@
   "author": "Corno",
   "bin": {},
   "dependencies": {
-    "astn-handlers-api": "^0.5.1",
-    "astn-parser-api": "^0.6.2",
-    "astn-serializer-api": "^0.6.3",
-    "astn-tokenconsumer-api": "^0.3.2"
+    "astn-handlers-api": "^0.6.0",
+    "astn-parser-api": "^0.7.1",
+    "astn-serializer-api": "^0.6.4",
+    "astn-tokenconsumer-api": "^0.3.4"
   },
   "files": [
     "dist",
@@ -26,5 +26,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.6.3",
-  "content-fingerprint": "0a8d689db5fcf67d87b37ff34282d0bc28d17d84"
+  "content-fingerprint": "6a7cca4cf6bc1f4bb9a0490c49a0b854d658f7be"
 }
