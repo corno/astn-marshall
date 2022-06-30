@@ -1,3 +1,3 @@
 import * as pl from "pareto-lang-lib"
 
-pl.logDebugMessage("Hello World!")
+pl.logDebugMessage("no tests yet")
