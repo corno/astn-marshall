@@ -102,11 +102,11 @@ function onValueIsNonDefault(
             const $ = definition.type[1]
             value.toGroup((group) => {
                 let foundNonDefault = false
-                $.properties.forEach((p, key) => {
-                    group.onProperty(key, (value) => {
+                $.properties.toArray().forEach((p) => {
+                    group.onProperty(p.key, (value) => {
                         onValueIsNonDefault(
                             value,
-                            p.value,
+                            p.value.value,
                             () => {
                                 foundNonDefault = true
                             }
@@ -265,11 +265,11 @@ function marshallValue(
             const $ = definition.type[1]
             value.toGroup((group) => {
                 if (inMixinMode) {
-                    $.properties.forEach((propDef, key) => {
-                        group.onProperty(key, (prop) => {
+                    $.properties.toArray().forEach((propDef) => {
+                        group.onProperty(propDef.key, (prop) => {
                             marshallValue(
                                 prop,
-                                propDef.value,
+                                propDef.value.value,
                                 out,
                                 style,
                                 true,
@@ -291,16 +291,16 @@ function marshallValue(
                                     }],
                                 },
                                 (out) => {
-                                    $.properties.forEach((propDef, key) => {
-                                        group.onProperty(key, (prop) => {
+                                    $.properties.toArray().forEach((propDef) => {
+                                        group.onProperty(propDef.key, (prop) => {
                                             function serializeProperty() {
                                                 out.sendEvent(["simple string", {
-                                                    value: key,
+                                                    value: propDef.key,
                                                     wrapping: ["apostrophe", {}],
                                                 }])
                                                 marshallValue(
                                                     prop,
-                                                    propDef.value,
+                                                    propDef.value.value,
                                                     out,
                                                     style,
                                                     false,
@@ -310,7 +310,7 @@ function marshallValue(
                                             if (expandedStyle.omitPropertiesWithDefaultValues) {
                                                 onValueIsNonDefault(
                                                     prop,
-                                                    propDef.value,
+                                                    propDef.value.value,
                                                     () => {
                                                         serializeProperty()
                                                     }
@@ -336,11 +336,11 @@ function marshallValue(
                                     }],
                                 },
                                 (out) => {
-                                    $.properties.forEach((propDef, key) => {
-                                        group.onProperty(key, (prop) => {
+                                    $.properties.toArray().forEach((propDef) => {
+                                        group.onProperty(propDef.key, (prop) => {
                                             marshallValue(
                                                 prop,
-                                                propDef.value,
+                                                propDef.value.value,
                                                 out,
                                                 style,
                                                 true,
