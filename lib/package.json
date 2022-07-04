@@ -4,7 +4,7 @@
   "dependencies": {
     "astn-marshall-api": "^0.6.4",
     "astn-parser-api": "^0.7.1",
-    "astn-parser-lib": "^0.9.0",
+    "astn-parser-lib": "^0.10.0",
     "astn-serializer-api": "^0.6.4",
     "astn-typedtreehandler-api": "^0.8.0",
     "pareto-runtime": "^0.24.0"
@@ -28,5 +28,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.8.0",
-  "content-fingerprint": "5bd87120495f4f15dc86344b4f78482f7f1bb3b1"
+  "content-fingerprint": "b1e4fd0ea06c7c2aa48d94645bb4c6ff2e952d28"
 }
