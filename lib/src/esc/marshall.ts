@@ -13,7 +13,7 @@ import { IContentTokenConsumer } from "astn-tokenconsumer-api"
 
 import { TypeDefinition, ValueDefinition } from "astn-typedtreehandler-api"
 
-import { getElement } from "pareto-runtime"
+import * as pr from "pareto-runtime"
 import { CreateAnnotater } from "astn-marshall-api"
 import { CreateTreeParserAndHandleErrors } from "astn-marshall-api"
 import { CreateASTNNormalizer } from "astn-marshall-api"
@@ -92,7 +92,7 @@ function onValueIsNonDefault(
                 if (lines.length > 1) {
                     callback()
                 }
-                if (lines.length === 1 && getElement(lines, 0) !== "") {
+                if (lines.length === 1 && pr.getElement(lines, 0) !== "") {
                     callback()
                 }
             })
