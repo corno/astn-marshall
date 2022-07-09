@@ -1,3 +1,3 @@
-import * as pl from "pareto-lang-lib"
+import * as pl from "pareto-lib-core"
 
 pl.logDebugMessage("no tests yet")

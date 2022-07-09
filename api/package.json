@@ -3,7 +3,7 @@
   "bin": {},
   "dependencies": {
     "astn-handlers-api": "^0.6.0",
-    "astn-parser-api": "^0.7.1",
+    "astn-parser-api": "^0.8.0",
     "astn-serializer-api": "^0.6.4",
     "astn-tokenconsumer-api": "^0.3.4"
   },
@@ -26,5 +26,5 @@
   },
   "types": "dist/index.d.ts",
   "version": "0.6.4",
-  "content-fingerprint": "6a7cca4cf6bc1f4bb9a0490c49a0b854d658f7be"
+  "content-fingerprint": "0f863148b0082d66d2abfc23d18393e3eb866f3c"
 }

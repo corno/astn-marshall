@@ -1,4 +1,4 @@
-import * as pl from "pareto-lang-lib"
+import * as pl from "pareto-lib-core"
 
 import * as api from "astn-marshall-api"
 
@@ -125,10 +125,10 @@ function onValueIsNonDefault(
 }
 
 export function marshallDataset(
-    dataset: api.IMarshallableDataset,
     definition: TypeDefinition,
-    out: SerializeOut,
     style: api.SerializationStyle,
+    dataset: api.IMarshallableDataset,
+    out: SerializeOut,
 ): void {
     marshallValue(
         dataset.root,
@@ -476,9 +476,9 @@ export function marshall(
         }
     }
     marshallDataset(
-        dataset,
         schema["root type"].get(),
-        createOut(),
         style,
+        dataset,
+        createOut(),
     )
 }
